@@ -15,7 +15,6 @@ function AboutCard() {
             <br />
             Additionally, working as a software quality assurance intern at <span className="purple">Harian Kompas</span>.
             <br />
-            <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>

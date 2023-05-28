@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import Tilt from "react-parallax-tilt";
 
 function About() {
   return (
@@ -26,12 +27,15 @@ function About() {
             </h1>
             <Aboutcard />
           </Col>
+          
           <Col
             md={5}
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
+            <Tilt>
             <img src={laptopImg} alt="about" className="img-fluid" />
+            </Tilt>
           </Col>
         </Row>
         <h1 className="project-heading">
